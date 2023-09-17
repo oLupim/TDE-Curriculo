@@ -1,0 +1,143 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+    font-weight: lighter;
+}
+
+span {
+    color: white;
+}
+
+body{
+    background-color: #cecece;
+}
+
+.folhapai {
+    margin-top: 20px;
+    width: 60%;
+    height: 850px;
+    background-color: white;    
+    border-radius: 25px;
+
+}
+
+.header {
+    background-color: black;
+    border-radius: 25px 25px 0px 0px;
+    color: white;
+    height: 100px;
+    text-align: center;
+    padding: 20px 50px;
+}
+
+.header span {
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.perfil {
+    background-color: white;
+    height: 200px;
+}
+
+.dados {
+    width: 60%;
+    height: 100%;
+    float: left;
+    text-align: right;
+    padding-top: 50px;
+    padding-right: 30px;
+}
+
+.foto {
+    width: 40%;
+    float: left;
+    border: 0px solid;
+}
+
+.foto img {
+    width: 140px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 16px;
+}
+
+.exper {
+    height: 400px;
+    width: 60%;
+    float: left;
+    padding: 20px;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.exper h3, p {
+    padding-left: 25px;
+}
+
+.tech {
+    height: 400px;
+    width: 40%;
+    float: right;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 20px;
+}
+
+.formacao {
+    float: left;
+    padding: 20px;
+    width: 60%;
+    float: left;
+}
+
+.formacao h3, p {
+    padding-left: 25px;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.ball {
+    height: 16px;
+    width: 16px;
+    background-color: gray;
+    border-radius: 50%;
+    float: left;
+    margin-left: 5px;
+}
+
+.ballnull {
+    height: 16px;
+    width: 16px;
+    border: 2px solid gray;
+    border-radius: 40%;
+    float: left;
+    margin-left: 5px;
+}
+
+.tech p {
+    float: left;
+    width: 40%;
+}
+
+p, li {
+    color: gray;
+}
+
+.redes {
+    float: right;
+    margin-top: -20px ;
+}
+
+.redes img {
+    width: 25px;
+}
